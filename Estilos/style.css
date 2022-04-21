@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.container {
+    display: grid;
+}
+
+.header{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contactotop {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav ul {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.videos{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: (10, 10%);
+    grid-row: (10, 10%);
+}
+
+.video1 {
+    padding: 15px;
+    max-width: 700px;
+    max-height: 700px;
+    grid-column: 2/3;
+}
+
+.articulo1 {
+    grid-column: 5/9;
+    margin: auto;
+    background-color: brown;
+}
+
+.parrafo1{
+    background-color: coral;
+    grid-column: 5/9;
+    grid-row: 2;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+}
